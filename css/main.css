@@ -1,0 +1,123 @@
+body, html{
+    color: white;
+    background-color: white;
+    margin: 0px;
+}
+
+header{
+    background-color: black;
+    padding-bottom: 0px;
+}
+
+main{
+    color: black;
+    background-color: white;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 15px;
+}
+.month{
+    margin-left: 30px;
+    border: 1px solid gray;
+}
+
+nav{
+    padding-top: 20px;
+}
+nav h1{
+    background-color: black;
+    display: inline;
+    font-size: 25px;
+    margin-left: 35px;
+}
+nav ul{
+    background-color: black;
+    display: inline;
+    margin: 0px;
+    font-size: 10px;
+    margin-right: 50px;
+}
+nav li{
+    background-color: black;
+    display: inline;
+    padding-left: 25px;
+    padding-right: 25px;
+    float: right;
+}
+nav li:hover{
+    color: orange;
+}
+
+.hero-image{
+    font-size: 100px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.heroimage{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+}
+.hero-text{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.Shows{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid gray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template: 
+    "img txt lnk"
+    "img txt lnk"
+    "img txt lnk"
+    "img txt lnk"
+}
+.showimage{
+    height: 95%;
+    position: relative;
+    top: 10%;
+}
+
+a{
+    border: 1px solid gray;
+    background-color: gold;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 50%;
+}
+
+a:hover{
+    color: darkcyan;
+}
+
+footer{
+    padding-top: 50px;
+    padding: 75px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+footer ul{
+    display: inline;
+}
+footer li{
+    list-style-type: none;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.material-icons-outlined{
+    color: gold;
+}
+
